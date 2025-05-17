@@ -1,8 +1,3 @@
-python-telegram-bot v22 changed the filter for GIF/animations to the constant filters.ANIMATION (all-caps).
-filters.Animation no longer exists, hence the attribute-error.
-
-Below is a fresh, drop-in locks.py that compiles and runs on PTB v22.
-
 from telegram import (
     Update,
     ChatPermissions,
